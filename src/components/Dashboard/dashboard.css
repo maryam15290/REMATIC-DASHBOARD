@@ -1,0 +1,171 @@
+.page-header {
+  padding: 10px 0px;
+}
+
+.dashboard-page {
+  background-image: linear-gradient(230deg, #4e1f4c 0%, #172545 100%);
+  width: 100% !important;
+  padding-bottom: 50px;
+}
+
+.wallet-address {
+  font-size: 18px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.wallet-address:focus {
+  outline: none;
+}
+
+.network-btn {
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ff002b;
+  font-size: 16px;
+  padding: 8px;
+  height: 50px;
+  width: 200px;
+}
+
+.network-btn:hover {
+  background-image: linear-gradient(230deg, #8d021a 0%, #ff002b 100%);
+}
+
+.view-btn {
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 500;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #860f0f00;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #c3317d;
+  border-radius: 0px 0px 0px 0px;
+  padding: 8px;
+  height: 50px;
+  width: 100px;
+}
+
+.view-btn:hover {
+  background-image: linear-gradient(230deg, #f26db2 0%, #4e0e30 100%);
+}
+
+.connect-btn {
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #15ff00;
+  padding: 8px;
+  height: 50px;
+  width: 200px;
+}
+
+.connect-btn:hover {
+  background-image: linear-gradient(230deg, #15ff00 0%, #0a5703 100%);
+}
+
+.title {
+  color: white;
+  font-size: 45px !important;
+  text-align: center;
+  font-weight: bold;
+  width: 95%;
+}
+
+.rmtx-balance {
+  color: white;
+  font-size: 22px;
+  background-image: linear-gradient(190deg, #1e2a39 0%, #26466f 100%);
+  padding: 20px;
+  border-radius: 20px;
+  width: 50%;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.rmtx-data {
+  padding: 0px 30px;
+  gap: 20px !important;
+}
+
+.rmtx-data #item {
+  color: white;
+  font-size: 22px;
+  background-image: linear-gradient(190deg, #1e2a39 0%, #26466f 100%);
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 95% !important;
+}
+
+.progressbar #title {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.claim-btn {
+  width: 150px !important;
+  height: 50px !important;
+  color: #ffffff !important;
+  background-color: transparent !important;
+  border: 2px solid #15ff00 !important;
+  font-size: 18px !important;
+}
+
+.claim-text {
+  color: white;
+  font-size: 20px;
+}
+
+@media (max-width: 1150px) {
+  .wallet-address {
+    width: 30%;
+  }
+}
+
+@media (max-width: 867px) {
+  .page-header {
+    flex-direction: column !important;
+    gap: 10px;
+  }
+
+  .wallet-address {
+    width: 90%;
+  }
+
+  .rmtx-data {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px !important;
+  }
+
+  .rmtx-data #item {
+    width: 54%;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 756px) {
+  .rmtx-data #item {
+    width: 95%;
+  }
+
+  .rmtx-balance {
+    width: 87%;
+  }
+}
+
+@media (max-width: 650px) {
+  .rmtx-data #item {
+    width: 100%;
+  }
+}

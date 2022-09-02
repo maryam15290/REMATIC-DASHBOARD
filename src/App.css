@@ -1,0 +1,12 @@
+.dashboard-page {
+  min-height: 100vh !important;
+}
+
+body {
+  font-family: "Montserrat", Sans-serif !important;
+}
+
+.ant-progress-text{
+    font-size: 15px !important;
+    color: white !important;
+}
